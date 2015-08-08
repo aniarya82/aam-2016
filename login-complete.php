@@ -1,7 +1,7 @@
 <?php
  session_start();
  if ($_SESSION["email"] != "") {
-   header('Location: ./signin.php');
+   header('Location: ./signin.php?err=');
    exit();
  }
  ?>
