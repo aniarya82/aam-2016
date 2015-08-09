@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
   }
 } else {
   $connection->close();
-  header('Location: ./signin.php?err=');
+  header('Location: ./signup.php?alert=Please register before logging in.');
   exit;
 }
 ?>
