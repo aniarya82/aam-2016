@@ -13,6 +13,17 @@
   <?php include "navbar.php"; ?>
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
   <div class="container">
+    <?php
+    if ($_GET["alert"]) {
+      $err = $_GET["alert"];
+      echo "<div class='alert alert-danger alert-dismissible'>";
+      echo "<button type='button' class='close' data-dismiss='alert' aria-label='Close'>";
+      echo "<span aria-hidden='true'>&times;</span>";
+      echo "</button>";
+      echo "$err";
+      echo "</div>";
+    }
+     ?>
     <form action="register.php" method="post">
       <h2>Section 1: Personal Details
         <label class="label label-danger">Required</label>
