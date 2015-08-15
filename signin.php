@@ -11,7 +11,7 @@
   <div class="container">
     <h2 align="center">Login</h2>
     <?php
-    if ($_GET["err"]) {
+    if (isset($_GET["err"])) {
       $err = $_GET["err"];
       echo "<div class='alert alert-danger alert-dismissible'>";
       echo "<button type='button' class='close' data-dismiss='alert' aria-label='Close'>";

@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
   <div class="container">
     <?php
-    if ($_GET["alert"]) {
+    if (isset($_GET["alert"])) {
       $err = $_GET["alert"];
       echo "<div class='alert alert-danger alert-dismissible'>";
       echo "<button type='button' class='close' data-dismiss='alert' aria-label='Close'>";
