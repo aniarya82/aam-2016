@@ -159,7 +159,7 @@
     <div class="container" align="center">
       <h2>Office of Alumni Affairs and International Relations</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="panel panel-default">
             <div class="panel-body">
               <b>Prof. Siddhartha Mukhopadhyay</b>
@@ -168,15 +168,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <b>Mr. Chinna Babu Boddipalli (AE) </b>
-              <br> Managing Director- Institutional Development
-              <br> chinna@adm.iitkgp.ernet.in
-            </div>
-          </div>
-        </div>
+       
       </div>
       <div class="row">
         <div class="col-md-4">
