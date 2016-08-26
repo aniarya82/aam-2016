@@ -12,7 +12,9 @@
     </style>
     <link href="css/carousel.css" rel="stylesheet" type="text/css">
 </head>
-
+<script>
+  window.location.assign("http://www.sac.iitkgp.ac.in/aam.php")
+</script>
 <body>
   <?php include 'navbar.php'; ?>
 
